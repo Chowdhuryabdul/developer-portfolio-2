@@ -146,6 +146,9 @@ nav li {
     /* position: absolute; */
     margin: 0 auto;
 
+    section {
+        margin-top: 130px;
+    }
 
 }
 
@@ -199,7 +202,7 @@ nav li {
 
 /* what-i-do */
 .what-i-do {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 145px;
 }
 
@@ -219,4 +222,95 @@ nav li {
     max-width: 909px;
     margin: 0 auto;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+.resum {
+    margin-top: 130px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+.resume-content-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-content-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-item {
+    gap: 71px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-item-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.btn-orange-1{
+    margin-top: 50px;
+    margin-bottom: 113px;
+    color: #FFFFFF;
+    height: 64px;
+    padding: 18px 36px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    justify-content: center;
 }
